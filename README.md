@@ -1,1 +1,1 @@
-https://roziyatukhtayeva.github.io/portfolio/
+https://tukhtayevaroziya.github.io/My_Portfolio/
