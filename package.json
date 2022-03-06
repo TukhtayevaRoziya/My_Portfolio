@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://TukhtayevaRoziya.github.io/My_Portfolio",
+  "homepage": "https://tukhtayevaroziya.github.io/My_Portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
