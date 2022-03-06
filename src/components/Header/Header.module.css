@@ -84,11 +84,12 @@
     .mainPicture {
         width            : 100%;
         height           : 550px;
-        background-image : url('../../assets/user.svg');
+        background-image : url('../../assets/forHome.svg');
         background-repeat: no-repeat;
         background-size  : 100% 100%;
     }
-
+/* https://pin.it/7H1unOh */
+/* https://pngtree.com/freepng/women-working-at-home-are-protected-from-the-corona-virus_5363597.html */
     .navbar {
         height: 50px;
     }
@@ -153,23 +154,31 @@
         -moz-osx-font-smoothing: grayscale;
     }
 
-@media (min-width:0) and (max-width:279.9px) {
-    .typewriter h1 {
-        width       : 164px;
-        margin      : 2rem 0 .5rem 0;
-        font-size: 12px;
+    @media (min-width:0) and (max-width:279.9px) {
+        .typewriter h1 {
+            width    : 164px;
+            margin   : 2rem 0 .5rem 0;
+            font-size: 12px;
+        }
+
+        .typewriter #line_1,
+        .typewriter #line_2 {
+            font-size: 10px;
+            width    : 83px;
+        }
     }
 
-    .typewriter #line_1,
-    .typewriter #line_2 {
-        font-size: 10px;
-        width: 83px;
+    @media (min-width:280px) and (max-width:349.9px) {
+        .typewriter h1 {
+            width    : 250px;
+            margin   : 2rem 0 .2rem 0;
+            font-size: 18px;
+        }
+
     }
-}
-@media (min-width:280px) and (max-width:350px) {
-    .typewriter h1 {
-        width       : 250px;
-        margin      : 2rem 0 .2rem 0;
-        font-size: 18px;
+
+    @media (min-width:0) and (max-width:600px) {
+        .mainPicture {
+            height: 70vh;
+        }
     }
-}

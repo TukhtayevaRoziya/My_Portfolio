@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
-import PrimaryNav from './components/Footer/LabelBottomNavigation';
-import { Header } from './components/Header/Header';
-import { Resume } from './components/Resume/Resume';
-import { Skills } from './components/Skills/Skills';
+import PrimaryNav from './components/footer/LabelBottomNavigation';
+import { Header } from './components/header/Header';
+import { Resume } from './components/resume/Resume';
+import { Skills } from './components/skills/Skills';
 
 const App = () => {
   return (

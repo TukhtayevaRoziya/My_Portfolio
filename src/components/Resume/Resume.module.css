@@ -7,7 +7,6 @@
 }
 
 .picture {
-    width        : 30%;
     border-radius: 50%;
     width        : 23%;
 }
@@ -111,7 +110,6 @@
     width          : 100%;
 }
 
-
 @media (min-width:0) and (max-width:600.9px) {
     .Resume {
         display       : flex;
@@ -149,10 +147,12 @@
         color      : #cbcbcb;
         line-height: 28px;
     }
-    .mine .extra{
-        width: 100%;
+
+    .mine .extra {
+        width  : 100%;
         padding: 0;
     }
+
     .block {
         width  : 100%;
         padding: 0;
@@ -162,5 +162,54 @@
 @media (min-width:0) and (max-width:390px) {
     #mail {
         font-size: 9px;
+    }
+}
+
+@media (min-width:601px) and (max-width:800.9px) {
+    .Resume {
+        justify-content: center;
+    }
+
+    .picture {
+        width: 55%;
+    }
+
+    .extra {
+        width: 60%;
+    }
+
+    .My_skills {
+        width: 60%;
+        
+    }
+
+    .mine {
+        width: 47%;
+    }
+
+    .mine .extra {
+        width: 100%;
+    }
+
+    .contact a {
+        font-size: 14.5px;
+    }
+
+}
+
+@media (min-width:801px) and (max-width:1149.9px) {
+    .picture {
+        width : 55%;
+        margin: 0 1rem;
+    }
+
+    .My_skills {
+        width: 50%;
+    }
+
+    .extra,
+    .mine,
+    .about_me {
+        width: 45%;
     }
 }

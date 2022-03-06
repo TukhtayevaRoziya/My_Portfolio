@@ -1,8 +1,13 @@
 body {
-  background-color: rgb(43, 78, 104) !important;
-  color           : rgb(220, 220, 220);
-  font-family     : 'Fira Code', monospace;
-  margin: 0;
-  background : url(./assets/bg.png) left/cover;
+  background-color : rgb(43, 78, 104) !important;
+  color            : rgb(220, 220, 220);
+  font-family      : 'Fira Code', monospace;
+  margin           : 0;
+  background       : url(./assets/bg.png) left/cover;
   background-repeat: repeat;
+}
+
+.App {
+  /* height  : 100vh;
+  overflow: hidden; */
 }

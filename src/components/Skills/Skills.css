@@ -384,12 +384,12 @@
 }
 
 @media (min-width:0) and (max-width:420.9px) {
-  
+
   .skills-details .box {
     width: calc(100% / 1.5 - 20px);
   }
 
-  .skills-details .boxes{
+  .skills-details .boxes {
     justify-content: center;
   }
 }
