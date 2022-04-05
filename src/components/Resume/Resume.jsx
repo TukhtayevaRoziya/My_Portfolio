@@ -22,7 +22,7 @@ export const Resume = () => {
         <p className={style.text}>
           My name is Roziya. My last name is Tukhtayeva. I am 14 years old. I
           was born in 2008 in Andijan. I live in Uzbekistan. My address is
-          Andijan, Altynkul district, Maslahat village, Erkin street 14. My
+          Andijan, Erkin street 14. My
           phone number is +998 905280770.
           <br />I love coding because coding is so good. I have half a year of
           experience in coding. I have participated in many start-up projects.
