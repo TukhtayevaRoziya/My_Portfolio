@@ -22,7 +22,7 @@ export const Resume = () => {
         <p className={style.text}>
           My name is Roziya. My last name is Tukhtayeva. I am 14 years old. I
           was born in 2008 in Andijan. I live in Uzbekistan. My address is
-          Andijan, Altynkul district, Maslahat village, Erkin street 14. My
+          Andijan, Erkin street 14. My
           phone number is +998 905280770.
           <br />I love coding because coding is so good. I have half a year of
           experience in coding. I have participated in many start-up projects.
@@ -67,7 +67,7 @@ export const Resume = () => {
               <li>
                 <a
                   className={style.telegram_icon}
-                  href="https://t.me/coder_girl1"
+                  href="https://t.me/TukhtayevaRoziya"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -82,7 +82,7 @@ export const Resume = () => {
               <li>
                 <a
                   className={style.github_icon}
-                  href="https://github.com/roziya2008"
+                  href="https://github.com/tukhtayevaroziya"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -92,7 +92,7 @@ export const Resume = () => {
             </ul>
           </div>
         </div>
-        <a href="mailto:"></a>
+        <a href="mailto:" ></a>
         <div className={style.block + " " + style.extra}>
           <h3 className={style.title}>For Contact</h3>
           <div className={style.contact}>
