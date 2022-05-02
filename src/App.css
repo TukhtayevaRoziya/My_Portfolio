@@ -1,6 +1,6 @@
 body {
   background-color : rgb(43, 78, 104) !important;
-  color            : rgb(220, 220, 220);
+  color            : rgb(220, 220, 220) !important;
   font-family      : 'Fira Code', monospace;
   margin           : 0;
   background       : url(./assets/bg.png) left/cover;
@@ -8,6 +8,12 @@ body {
 }
 
 .App {
-  /* height  : 100vh;
-  overflow: hidden; */
+  height  : 100vh;
+  /* overflow: hidden; */
+}
+
+.ant-image-preview-img{
+  max-width: 60% !important;
+  min-width: 60% !important;
+  height: auto;
 }

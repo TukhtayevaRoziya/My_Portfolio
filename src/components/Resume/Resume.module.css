@@ -108,6 +108,15 @@
     margin-bottom  : 1rem;
     letter-spacing : 1.3px;
     width          : 100%;
+    color: #fff;
+}
+
+.title{
+    color: #fff !important;
+}
+
+.title1{
+    color: #fff !important;
 }
 
 @media (min-width:0) and (max-width:600.9px) {
@@ -122,6 +131,7 @@
 
     .mine {
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     .picture {

@@ -60,7 +60,7 @@ export const Resume = () => {
           <div className={style.socials}>
             <ul>
               <li>
-                <a className={style.facebook_icon}>
+                <a className={style.facebook_icon} href>
                   <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
                 </a>
               </li>
@@ -92,17 +92,17 @@ export const Resume = () => {
             </ul>
           </div>
         </div>
-        <a href="mailto:" ></a>
+        {/* <a href="mailto:" href></a> */}
         <div className={style.block + " " + style.extra}>
           <h3 className={style.title}>For Contact</h3>
           <div className={style.contact}>
             <a
-              href="https://t.me/coder_girl1"
+              href="https://t.me/TukhtayevaRoziya"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faTelegramPlane}></FontAwesomeIcon>{" "}
-              @coder_girl1
+              @TukhtayevaRoziya
             </a>
             <a href="tel:+998905280770">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> +998 905280770
