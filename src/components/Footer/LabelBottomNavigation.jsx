@@ -31,6 +31,7 @@ class PrimaryNav extends Component {
   render() {
     const { value, pathMap } = this.state;
     return (
+      <>
       <BottomNavigation
         value={value}
         onChange={this.handleChange}
@@ -58,6 +59,7 @@ class PrimaryNav extends Component {
           component={Link}
           to={pathMap[2]}
         />
+        
         <BottomNavigationAction
           label="Services"
           icon={<LocalOfferRoundedIcon />}
@@ -66,6 +68,7 @@ class PrimaryNav extends Component {
           to={pathMap[3]}
         />
       </BottomNavigation>
+      </>
     );
   }
 }

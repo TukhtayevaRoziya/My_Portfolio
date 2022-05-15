@@ -17,3 +17,16 @@ body {
   min-width: 60% !important;
   height: auto;
 }
+
+.counter{
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+
+}
+
+.counter strong{
+  font-weight: bolder;
+}

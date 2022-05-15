@@ -15,11 +15,14 @@ import buildAdmin from "../../assets/projects/buildAdmin.png";
 
 import "antd/dist/antd.css";
 import style from "./Project.module.css";
+import { useTranslation } from "react-i18next";
 
 export const Project = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={style.project}>
-      <h1 className={style.project_title}>My Projects</h1>
+      <h1 className={style.project_title}>{t("countryName")}</h1>
       <div className={style.project__block}>
         <div className={style.project__block__box}>
           <Image src={oksyG} />
