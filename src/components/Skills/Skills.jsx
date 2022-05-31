@@ -17,7 +17,7 @@ export const Skills = () => {
                 our wits to grow sharper
               </p>
               <div className="experience">
-                <div className="num">6 </div>
+                <div className="num">8 </div>
                 <div className="exp">
                   Months Of <br /> Experience
                 </div>
