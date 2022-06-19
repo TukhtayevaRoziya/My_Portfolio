@@ -62,6 +62,7 @@
 .skills-details .boxes .topic {
   font-size: 20px;
   color: var(--primary-color);
+  text-align: center;
 }
 
 .skills-details .boxes .per {
@@ -248,6 +249,9 @@
 .red .progress .inner .percent,
 .orange .progress .inner .percent {
   transition: all 1s ease;
+  margin: 0 auto;
+  right: 0;
+
 }
 
 .red {

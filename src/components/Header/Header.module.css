@@ -8,7 +8,6 @@
   border-right: 1px solid white;
   white-space: nowrap;
   overflow: hidden;
-  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   animation: typewriter 2s steps(25) 0s 1 normal both;
@@ -18,21 +17,22 @@
   color: #fff !important;
 }
 
-.typewriter #line_1 {
+.typewriter #line_1,
+#line_2{
   border-right: 1px solid white;
   white-space: nowrap;
   overflow: hidden;
-  width: 130px;
+
+}
+
+.typewriter #line_1 {
+  width: 115px;
   animation: typewriter 2s steps(40) 0s 1 normal both;
   animation-delay: 2s;
   margin: 0.5rem 0 0 0;
 }
 
 #line_2 {
-  border-right: 1px solid white;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 131px;
   animation: typewriter 3s steps(40) 0s 1 normal both;
   animation-delay: 4s;
   margin: 0.7rem 0 0 0;

@@ -6,9 +6,8 @@ import { Skills } from './components/skills/Skills';
 import { Project } from './components/project/Project';
 
 import './App.css'
-// import CustomizedSelects from './components/language/Language';
-import { useTranslation } from 'react-i18next';
 import { Language } from './components/language/Language';
+import { Switch } from './components/switch/Switch';
 
 const App = () => {
 
@@ -16,6 +15,8 @@ const App = () => {
     <div className='App'>
       <h2 className='counter'>
         <Language />
+        <Switch/>
+        
     {/* <h1>{t('countryName')}</h1> */}
       
       </h2>

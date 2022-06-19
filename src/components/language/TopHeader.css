@@ -1,0 +1,13 @@
+.TopHeader{
+    backdrop-filter: blur(10px);
+    height: 70px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.select select{
+    color: red;
+}

@@ -1,7 +1,23 @@
 import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+import translationEN from "./locales/en/translationEN.json";
+import translationUZ from "./locales/uz/translationUZ.json";
+import translationRU from "./locales/ru/translationRU.json";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { initReactI18next } from "react-i18next";
+
+const resources = {
+  en: {
+    translation: translationEN,
+  },
+  uz: {
+    translation: translationUZ,
+  },
+  ru: {
+    translation: translationRU,
+  },
+};
 
 i18n
   .use(Backend)
@@ -26,6 +42,10 @@ i18n
       lookupCookie: "i18next",
       lookupSessionStorage: "i18nextLng",
     },
+    resources,
+
+    keySeparator: false,
+
     interpolation: {
       escapeValue: false,
     },

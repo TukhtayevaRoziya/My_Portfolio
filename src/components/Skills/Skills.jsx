@@ -26,13 +26,13 @@ export const Skills = () => {
             <div className="boxes">
               <div className="box">
                 <div className="topic">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML
+                  HTML
                 </div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;90</span>%
+                        <span>90</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -42,13 +42,13 @@ export const Skills = () => {
               </div>
               <div className="box">
                 <div className="topic">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS
+                  CSS
                 </div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;85</span>%
+                        <span>85</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -57,12 +57,12 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SASS</div>
+                <div className="topic">SASS</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;85</span>%
+                        <span>85</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -72,13 +72,13 @@ export const Skills = () => {
               </div>
               <div className="box">
                 <div className="topic">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bootstrap
+                  Bootstrap
                 </div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;80</span>%
+                        <span>80</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -92,7 +92,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;80</span>%
+                        <span>80</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -106,7 +106,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;70</span>%
+                        <span>70</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -120,7 +120,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;60</span>%
+                        <span>60</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -134,7 +134,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;80</span>%
+                        <span>80</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -148,7 +148,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;85</span>%
+                        <span>85</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -162,7 +162,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;55</span>%
+                        <span>55</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -176,7 +176,7 @@ export const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>&nbsp;&nbsp;90</span>%
+                        <span>90</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>

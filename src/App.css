@@ -24,7 +24,8 @@ body {
   text-align: center;
   color: #fff;
   font-weight: 200;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .counter strong{
