@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 import { useTranslation } from "react-i18next";
 
-export const Skills = () => {
+const Skills = () => {
   const { t } = useTranslation();
 
   return (
@@ -201,3 +201,5 @@ export const Skills = () => {
     </div>
   );
 };
+
+export default Skills

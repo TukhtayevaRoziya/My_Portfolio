@@ -19,7 +19,7 @@ import "antd/dist/antd.css";
 import style from "./Project.module.css";
 import { useTranslation } from "react-i18next";
 
-export const Project = () => {
+const Project = () => {
   const { t } = useTranslation();
 
   return (
@@ -236,3 +236,5 @@ export const Project = () => {
     </div>
   );
 };
+
+export default Project

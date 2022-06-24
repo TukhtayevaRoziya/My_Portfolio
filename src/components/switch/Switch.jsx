@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./Switch.css";
 
-export const Switch = () => {
+const Switch = () => {
   const [darkMode, setDarkMode] = useState(getInitialMode());
   useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(darkMode));
@@ -61,3 +61,5 @@ export const Switch = () => {
     </div>
   );
 }
+
+export default Switch

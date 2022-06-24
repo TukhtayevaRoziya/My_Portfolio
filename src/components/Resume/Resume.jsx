@@ -14,7 +14,7 @@ import coder from "../../assets/girl_coder.jpg";
 
 import style from "./Resume.module.css";
 
-export const Resume = () => {
+const Resume = () => {
   const { t } = useTranslation();
 
   return (
@@ -118,3 +118,5 @@ export const Resume = () => {
     </div>
   );
 };
+
+export default Resume

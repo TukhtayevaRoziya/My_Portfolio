@@ -4,7 +4,7 @@ import i18n from "../../i18n";
 
 import "./TopHeader.css";
 
-export function Language() {
+function Language() {
   const defaultLang = localStorage.getItem("lang")
     ? localStorage.getItem("lang")
     : "uz";
@@ -27,3 +27,5 @@ export function Language() {
     </div>
   );
 }
+
+export default Language
