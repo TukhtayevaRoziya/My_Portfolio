@@ -10,7 +10,7 @@ import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 
 import style from "./Footer.module.css";
 
-class PrimaryNav extends Component {
+export class PrimaryNav extends Component {
   state = {
     value: 0,
     pathMap: ["/My_Portfolio", "/resume", "/project", "/skills"],
@@ -72,4 +72,3 @@ class PrimaryNav extends Component {
     );
   }
 }
-export default PrimaryNav;
