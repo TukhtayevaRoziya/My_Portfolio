@@ -7,6 +7,19 @@ body {
   background-repeat: repeat;
 }
 
+.dark{
+  background-color : #000 !important;
+}
+
+.dark .MuiBottomNavigation-root{
+  background-color: #303030 !important;
+}
+
+
+.dark .Footer_Footer__ndc6F a span{
+  color: #fff !important;
+}
+
 .App {
   height  : 100vh;
   /* overflow: hidden; */
@@ -19,7 +32,6 @@ body {
 }
 
 .counter{
-  border: 2px solid red;
   width: 100%;
   text-align: center;
   color: #fff;
@@ -30,4 +42,15 @@ body {
 
 .counter strong{
   font-weight: bolder;
+}
+
+.dark .Resume_github_icon__tetS9 svg:hover{
+  color: rgb(151, 149, 149) !important;
+}
+
+@media (min-width: 0) and (max-width: 800.9px){
+  .counter{
+    width: 85%;
+    margin: 0 auto;
+  }
 }

@@ -394,6 +394,7 @@
 
   .skills-details .boxes {
     justify-content: center;
+    margin-bottom: 3rem;
   }
 }
 

@@ -5,7 +5,8 @@ body {
 }
 
 .light-mode {
-  background-color: #fff;
+  width: 30%;
+
   color: #333;
   transition: background-color 0.25s ease-out;
 }
@@ -15,19 +16,13 @@ body {
 }
 
 .dark-mode {
-  background-color: #1a1919;
   color: #999;
   width: 30%;
-}
-
-.dark-mode nav {
-  background-color: #1b2938;
 }
 
 nav {
   width: 100%;
   display: flex;
-  background-color: steelblue;
   padding: 20px;
 }
 
@@ -82,9 +77,13 @@ input[type="checkbox"].checkbox + label {
   cursor: pointer;
   position: absolute;
   left: 2px;
-  background: #fff;
+  background: #333333;
   opacity: 0.9;
-  background-color: cyan;
+}
+
+.dark input[type="checkbox"].checkbox + label {
+  background: #fff;
+
 }
 
 .toggle-container {
@@ -104,4 +103,11 @@ input[type="checkbox"].checkbox + label {
 
 .toggle-container > span:last-child {
   margin-top: 5px;
+}
+
+@media (min-width: 0) and (max-width: 800.9px){
+  .dark-mode,
+  .light-mode{
+    width: auto;
+  }
 }

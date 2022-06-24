@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import PrimaryNav from './components/footer/LabelBottomNavigation';
+import PrimaryNav from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { Resume } from './components/resume/Resume';
 import { Skills } from './components/skills/Skills';
@@ -15,10 +15,7 @@ const App = () => {
     <div className='App'>
       <h2 className='counter'>
         <Language />
-        <Switch/>
-        
-    {/* <h1>{t('countryName')}</h1> */}
-      
+        <Switch/>      
       </h2>
 
       <Routes>

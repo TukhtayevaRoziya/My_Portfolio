@@ -1,33 +1,33 @@
 import React from "react";
 import "./Skills.css";
+import { useTranslation } from "react-i18next";
 
 export const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <section className="skills" id="skills">
         <div className="content">
           <div className="title">
-            <span>My Skills</span>
+            <span>{t("mySkills")}</span>
           </div>
           <div className="skills-details">
             <div className="text">
-              <div className="topic">Skills Reflects Our Knowledge</div>
+              <div className="topic">{t("knowledge")}</div>
               <p>
-                The universe is full of magical things, patiently waiting for
-                our wits to grow sharper
+                {t('universe')}
               </p>
               <div className="experience">
-                <div className="num">8 </div>
+                <div className="num">1 </div>
                 <div className="exp">
-                  Months Of <br /> Experience
+                  {t("year")} <br />  {t("experience")}
                 </div>
               </div>
             </div>
             <div className="boxes">
               <div className="box">
-                <div className="topic">
-                  HTML
-                </div>
+                <div className="topic">HTML</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -41,9 +41,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic">
-                  CSS
-                </div>
+                <div className="topic">CSS</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -71,9 +69,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic">
-                  Bootstrap
-                </div>
+                <div className="topic">Bootstrap</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -158,11 +154,11 @@ export const Skills = () => {
               </div>
               <div className="box">
                 <div className="topic javascript">Next Js</div>
-                <div className="orange">
+                <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>55</span>%
+                        <span>75</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -177,6 +173,20 @@ export const Skills = () => {
                     <div className="inner">
                       <div className="percent">
                         <span>90</span>%
+                      </div>
+                      <div className="water"></div>
+                      <div className="glare"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="box">
+                <div className="topic javascript">i18Next</div>
+                <div className="green">
+                  <div className="progress">
+                    <div className="inner">
+                      <div className="percent">
+                        <span>95</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
