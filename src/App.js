@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import { Footer } from "./components/footer/Footer";
+// import { Footer } from "./components/footer/Footer";
 import { Header } from "./components/header/Header";
 import { Resume } from "./components/resume/Resume";
 import { Skills } from "./components/skills/Skills";
+import { Switch } from "./components/switch/Switch";
 import { Project } from "./components/project/Project";
+import { Language } from "./components/language/Language";
 
 import "./App.css";
-import { Language } from "./components/language/Language";
-import { Switch } from "./components/switch/Switch";
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/project" element={<Project />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
