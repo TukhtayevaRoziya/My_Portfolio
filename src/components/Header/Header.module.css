@@ -5,12 +5,12 @@
 }
 
 .typewriter h1 {
-  border-right: 1px solid white;
+  /* border-right: 1px solid white; */
   white-space: nowrap;
   overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 2s steps(25) 0s 1 normal both;
+  /* animation: typewriter 2s steps(25) 0s 1 normal both; */
   margin: 2rem 0 0.5rem 0;
   font-size: 24px;
   text-align: center;
@@ -22,19 +22,17 @@
   border-right: 1px solid white;
   white-space: nowrap;
   overflow: hidden;
-
 }
 
 .typewriter #line_1 {
   width: 115px;
   animation: typewriter 2s steps(40) 0s 1 normal both;
-  animation-delay: 2s;
   margin: 0.5rem 0 0 0;
 }
 
 #line_2 {
   animation: typewriter 3s steps(40) 0s 1 normal both;
-  animation-delay: 4s;
+  animation-delay: 2s;
   margin: 0.7rem 0 0 0;
 }
 

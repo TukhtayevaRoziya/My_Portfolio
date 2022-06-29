@@ -2,6 +2,7 @@ import React from "react";
 
 import style from "./Header.module.css";
 import { useTranslation } from "react-i18next";
+import TypingEffect from './TypingEffect';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -12,8 +13,9 @@ const Header = () => {
 
   return (
     <>
+      {/* <TypingEffect text={t("myName")}/> */}
       <div className={style.typewriter}>
-        <h1 id="myName">{t("myName")}</h1>
+        <h1>{t("myName")}</h1>
         <p id={style.line_1}>React Developer</p>
         <p id={style.line_2} style={{ width: "115px" }}>
           From Uzbekistan

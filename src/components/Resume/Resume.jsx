@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import {
   faFacebookF,
   faGithub,
-  faInstagram,
+  faLinkedin,
   faTelegramPlane,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -71,8 +71,8 @@ const Resume = () => {
                 </a>
               </li>
               <li>
-                <a className={style.instagram_icon} href="/">
-                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                <a className={style.linkedin_icon} href="https://www.linkedin.com/in/roziya-tukhtayeva-07b447241/">
+                  <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                 </a>
               </li>
               <li>

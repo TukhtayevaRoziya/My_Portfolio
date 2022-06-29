@@ -3,7 +3,7 @@
     padding        : 30px 5vw;
     margin-left    : 3rem;
     flex-wrap      : wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .picture {
@@ -30,18 +30,18 @@
 }
 
 .extra {
-    width        : 35%;
+    width        : 32%;
     padding-right: 1rem;
 }
 
 .My_skills {
     display       : flex;
     flex-direction: column;
-    width         : 30%;
+    width         : 26%;
 }
 
 .mine {
-    width: 30%;
+    width: 37%;
 }
 
 .socials ul {
@@ -85,10 +85,10 @@
     margin-left: 3px;
 }
 
-.socials ul li .instagram_icon svg:hover {
+.socials ul li .linkedin_icon svg:hover {
     font-size: 32px;
     transform: rotate(-360deg);
-    color    : #ff5860;
+    color    : #0a66c2;
 }
 
 .github_icon svg:hover {
@@ -117,6 +117,10 @@
 
 .title1{
     color: #fff !important;
+}
+
+#mail{
+    font-size: 13.3px;
 }
 
 @media (min-width:0) and (max-width:600.9px) {
