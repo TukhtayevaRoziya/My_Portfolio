@@ -51,12 +51,15 @@
   width: 85%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .skills-details .box {
   width: calc(100% / 5 - 20px);
   margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-details .boxes .topic {
@@ -340,13 +343,16 @@
 }
 
 @media (min-width: 0) and (max-width: 549.9px) {
+  .title{
+    padding: 0 5vh;
+  }
   .skills .content {
     padding: 0;
   }
 
   .skills {
     margin: 0 0 3rem 0;
-    padding: 30px 5vw;
+    padding: 30px 5vw 5em;
   }
 
   .skills,

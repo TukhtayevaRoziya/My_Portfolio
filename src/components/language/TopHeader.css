@@ -1,7 +1,6 @@
 .TopHeader{
-    backdrop-filter: blur(10px);
     height: 70px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +12,10 @@
     color: #fff;
     border: none;
     background-color: #2b4e68;;
+}
+
+.dark .select select{
+    background-color: #000000;
 }
 
 .dark .select select option{
