@@ -4,7 +4,7 @@
 }
 
 .skills .content {
-  padding: 40px 0;
+  padding: 0 0 40px;
 }
 
 .skills .skills-details {
@@ -36,7 +36,7 @@
 
 .title {
   font-size: 30px;
-  padding: 30px 5vw;
+  padding: 0 5vw 30px;
 }
 
 .skills-details .experience .exp {
@@ -254,7 +254,6 @@
   transition: all 1s ease;
   margin: 0 auto;
   right: 0;
-
 }
 
 .red {
@@ -465,10 +464,6 @@
   }
   .skills-details .boxes .topic{
     font-size: 15px;
-  }
-  .skills .content,
-  .title{
-    padding-top: 0;
   }
 }
 
