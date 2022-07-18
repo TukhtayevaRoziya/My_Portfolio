@@ -344,7 +344,7 @@
 
 @media (min-width: 0) and (max-width: 549.9px) {
   .title{
-    padding: 0 5vh;
+    padding: 0 5%;
   }
   .skills .content {
     padding: 0;
@@ -405,6 +405,9 @@
 }
 
 @media (min-width: 550px) and (max-width: 700.9px) {
+  .skills-details .boxes .topic{
+    font-size: 16px;
+  }
   .skills .content {
     padding: 0;
   }
@@ -452,6 +455,20 @@
   .skills-details .box {
     width: calc(100% / 3 - 20px);
     margin: 20px 0;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000.9px) {
+  .skills-details .boxes{
+    justify-content: space-between;
+    width: 90%;
+  }
+  .skills-details .boxes .topic{
+    font-size: 15px;
+  }
+  .skills .content,
+  .title{
+    padding-top: 0;
   }
 }
 
