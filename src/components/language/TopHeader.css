@@ -12,7 +12,7 @@
 .select select{
     color: #fff;
     border: none;
-    background-color: transparent;
+    background-color: #2b4e68;;
 }
 
 .dark .select select option{
