@@ -2,7 +2,6 @@ import React from "react";
 
 import style from "./Header.module.css";
 import { useTranslation } from "react-i18next";
-import TypingEffect from './TypingEffect';
 
 const Header = () => {
   const { t } = useTranslation();
