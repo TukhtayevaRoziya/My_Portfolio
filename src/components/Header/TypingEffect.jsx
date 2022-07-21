@@ -11,7 +11,7 @@ export default function TypingEffect(props) {
         setIndex(index + 1);
       }, 100);
     }
-  }, [index]);
+  }, [index, props.text, typing]);
 
   return (
     <div>
