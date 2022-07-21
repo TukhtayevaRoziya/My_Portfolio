@@ -25,7 +25,7 @@
 }
 
 .typewriter #line_1 {
-  width: 115px;
+  width: 132px;
   animation: typewriter 2s steps(40) 0s 1 normal both;
   margin: 0.5rem 0 0 0;
 }

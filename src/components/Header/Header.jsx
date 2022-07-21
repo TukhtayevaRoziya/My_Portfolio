@@ -6,17 +6,12 @@ import { useTranslation } from "react-i18next";
 const Header = () => {
   const { t } = useTranslation();
 
-  // const text  = document.getElementById("myName") && document.getElementById("myName").innerText
-
-  // console.log(text);
-
   return (
     <>
-      {/* <TypingEffect text={t("myName")}/> */}
       <div className={style.typewriter}>
         <h1>{t("myName")}</h1>
         <p id={style.line_1}>React Developer</p>
-        <p id={style.line_2} style={{ width: "115px" }}>
+        <p id={style.line_2} style={{ width: "132px" }}>
           From Uzbekistan
         </p>
       </div>
