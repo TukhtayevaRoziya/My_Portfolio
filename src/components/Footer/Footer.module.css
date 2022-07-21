@@ -1,6 +1,5 @@
 .Footer {
     flex-direction         : column;
-    -webkit-backdrop-filter: blur(5px);
     backdrop-filter        : blur(5px);
     overflow               : hidden;
     position               : fixed;
@@ -26,7 +25,6 @@
 @media (min-width:0) and (max-width:600.9px) {
 
     .Footer {
-        backdrop-filter: blur(5px);
         overflow       : hidden;
         position       : fixed;
         bottom         : 0;

@@ -4,9 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Switch from "./components/switch/Switch";
 import Language from "./components/language/Language";
+import { Preloader } from "./components/preloader/Preloader";
 
 import "./App.css";
-import { Preloader } from "./components/preloader/Preloader";
 
 const Header = lazy(() => import("./components/header/Header"));
 const Resume = lazy(() => import("./components/resume/Resume"));
