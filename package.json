@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://tukhtayevaroziya.github.io/My_Portfolio",
+  "homepage": "https://mrmuminov.github.io/My_Portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
