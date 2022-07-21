@@ -1,14 +1,14 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom"
 
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Resume from "./components/resume/Resume";
-import Skills from "./components/skills/Skills";
-import Switch from "./components/switch/Switch";
-import Project from "./components/project/Project";
-import Language from "./components/language/Language";
+import Footer from "./components/Footer/Footer"
+import Header from "./components/Header/Header"
+import Resume from "./components/Resume/Resume"
+import Skills from "./components/Skills/Skills"
+import Switch from "./components/Switch/Switch"
+import Project from "./components/Project/Project"
+import Language from "./components/Language/Language"
 
-import "./App.css";
+import "./App.css"
 
 const App = () => {
   return (
@@ -19,10 +19,10 @@ const App = () => {
       </h2>
 
       <Routes>
-        <Route path="/My_Portfolio" element={<Header />} />
-        <Route path="/My_Portfolio/resume" element={<Resume />} />
-        <Route path="/My_Portfolio/skills" element={<Skills />} />
-        <Route path="/My_Portfolio/project" element={<Project />} />
+        <Route path="/" element={<Header />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
       <Footer />
     </div>
