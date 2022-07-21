@@ -5,6 +5,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #e1e6e7, rgb(61, 108, 145));
+  background: linear-gradient(to bottom, #e1e6e7, #6052ba);
   border-radius: 5px;
+}
+
+body{
+  overflow-x: hidden;
 }

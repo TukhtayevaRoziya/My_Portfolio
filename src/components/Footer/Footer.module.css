@@ -6,7 +6,7 @@
     position               : fixed;
     left                   : 0;
     -webkit-box-pack       : start;
-    min-height             : 100vh;
+    min-height             : 100%;
     top                    : 0;
     width                  : 60px;
     justify-content        : space-around !important;

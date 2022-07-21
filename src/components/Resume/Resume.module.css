@@ -3,7 +3,7 @@
     padding        : 30px 5vw;
     margin-left    : 3rem;
     flex-wrap      : wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .picture {
@@ -213,7 +213,7 @@
 @media (min-width:801px) and (max-width:1149.9px) {
     .picture {
         width : 55%;
-        margin: 0 1rem;
+        margin: 0 1rem 2rem;
     }
 
     .My_skills {
