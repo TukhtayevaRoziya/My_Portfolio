@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Footer  from "./components/footer/Footer";
+
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
