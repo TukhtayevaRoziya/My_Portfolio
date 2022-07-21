@@ -13,7 +13,7 @@ import style from "./Footer.module.css";
 export default class Footer extends Component {
   state = {
     value: 0,
-    pathMap: ["/My_Portfolio", "/resume", "/project", "/skills"],
+    pathMap: ["/My_Portfolio", "/My_Portfolio#resume", "/My_Portfolio#project", "/My_Portfolio#skills"],
   };
   componentWillReceiveProps(newProps) {
     const { pathname } = newProps.location;
