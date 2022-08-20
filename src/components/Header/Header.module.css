@@ -25,7 +25,6 @@
 }
 
 .typewriter #line_1 {
-  width: 132px;
   animation: typewriter 2s steps(40) 0s 1 normal both;
   margin: 0.5rem 0 0 0;
 }
@@ -34,6 +33,12 @@
   animation: typewriter 3s steps(40) 0s 1 normal both;
   animation-delay: 2s;
   margin: 0.7rem 0 0 0;
+}
+
+#line_1,
+#line_2{
+  width: 115px;
+  font-size: 14px;
 }
 
 @keyframes typewriter {
@@ -166,9 +171,9 @@ i[class*=" ai_"]:before {
 
 @media (min-width: 280px) and (max-width: 349.9px) {
   .typewriter h1 {
-    width: 250px;
+    width: 90%;
     margin: 2rem 0 0.2rem 0;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

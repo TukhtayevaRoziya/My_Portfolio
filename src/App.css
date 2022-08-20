@@ -11,6 +11,10 @@ body {
   background-color : #000 !important;
 }
 
+.dark .Footer_Footer__tKyXQ a, .Footer_Footer__tKyXQ a span{
+  color: #fff;
+}
+
 .dark .MuiBottomNavigation-root{
   background-color: #303030 !important;
 }
