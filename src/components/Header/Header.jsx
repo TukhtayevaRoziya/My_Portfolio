@@ -11,7 +11,7 @@ const Header = () => {
       <div className={style.typewriter}>
         <h1>{t("myName")}</h1>
         <p id={style.line_1}>React Developer</p>
-        <p id={style.line_2}>
+        <p id={style.line_2}> 
           From Uzbekistan
         </p>
       </div>
