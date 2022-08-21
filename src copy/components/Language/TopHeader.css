@@ -1,0 +1,29 @@
+.TopHeader{
+    height: 70px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: auto 0;
+}
+
+.select select{
+    color: #fff;
+    border: none;
+    background-color: #2b4e68;;
+}
+
+.dark .select select{
+    background-color: #000000;
+}
+
+.dark .select select option{
+    background-color: black;
+    border: none;
+}
+
+select:active, select:focus{
+    outline:none;
+    border:none;
+  }
