@@ -1,13 +1,64 @@
 body {
   background-color : rgb(43, 78, 104) !important;
-  color            : rgb(220, 220, 220);
+  color            : rgb(220, 220, 220) !important;
   font-family      : 'Fira Code', monospace;
   margin           : 0;
   background       : url(./assets/bg.png) left/cover;
   background-repeat: repeat;
 }
 
+.dark{
+  background-color : #000 !important;
+}
+
+.dark .Footer_Footer__tKyXQ a, .Footer_Footer__tKyXQ a span{
+  color: #fff;
+}
+
+.dark .MuiBottomNavigation-root{
+  background-color: #303030 !important;
+}
+
+
+.dark .Footer_Footer__ndc6F a span{
+  color: #fff !important;
+}
+
 .App {
-  /* height  : 100vh;
-  overflow: hidden; */
+  height  : 100vh;
+  /* overflow: hidden; */
+}
+
+.ant-image-preview-img{
+  max-width: 60% !important;
+  min-width: 60% !important;
+  height: auto;
+}
+
+.counter{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter strong{
+  font-weight: bolder;
+}
+
+.dark .Resume_github_icon__tetS9 svg:hover{
+  color: rgb(151, 149, 149) !important;
+}
+
+.dark .Preloader_coin__8oAcN{
+  border-color: #5649a6;
+}
+
+@media (min-width: 0) and (max-width: 800.9px){
+  .counter{
+    width: 85%;
+    margin: 0 auto;
+  }
 }

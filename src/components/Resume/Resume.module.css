@@ -30,18 +30,18 @@
 }
 
 .extra {
-    width        : 35%;
+    width        : 32%;
     padding-right: 1rem;
 }
 
 .My_skills {
     display       : flex;
     flex-direction: column;
-    width         : 30%;
+    width         : 26%;
 }
 
 .mine {
-    width: 30%;
+    width: 37%;
 }
 
 .socials ul {
@@ -85,10 +85,10 @@
     margin-left: 3px;
 }
 
-.socials ul li .instagram_icon svg:hover {
+.socials ul li .linkedin_icon svg:hover {
     font-size: 32px;
     transform: rotate(-360deg);
-    color    : #ff5860;
+    color    : #0a66c2;
 }
 
 .github_icon svg:hover {
@@ -108,6 +108,19 @@
     margin-bottom  : 1rem;
     letter-spacing : 1.3px;
     width          : 100%;
+    color: #fff;
+}
+
+.title{
+    color: #fff !important;
+}
+
+.title1{
+    color: #fff !important;
+}
+
+#mail{
+    font-size: 13.3px;
 }
 
 @media (min-width:0) and (max-width:600.9px) {
@@ -122,6 +135,7 @@
 
     .mine {
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     .picture {
@@ -175,16 +189,15 @@
     }
 
     .extra {
-        width: 60%;
+        width: 65%;
     }
 
     .My_skills {
-        width: 60%;
-        
+        width: 65%;
     }
 
     .mine {
-        width: 47%;
+        width: 65%;
     }
 
     .mine .extra {
@@ -200,7 +213,7 @@
 @media (min-width:801px) and (max-width:1149.9px) {
     .picture {
         width : 55%;
-        margin: 0 1rem;
+        margin: 0 1rem 2rem;
     }
 
     .My_skills {

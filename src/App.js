@@ -1,21 +1,63 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css'
-import PrimaryNav from './components/footer/LabelBottomNavigation';
-import { Header } from './components/header/Header';
-import { Resume } from './components/resume/Resume';
-import { Skills } from './components/skills/Skills';
+import React, { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+import Footer from "./components/Footer/Footer";
+import Switch from "./components/Switch/Switch";
+import Language from "./components/Language/Language";
+import { Preloader } from "./components/preloader/Preloader";
+
+import "./App.css";
+
+const Header = lazy(() => import("./components/Header/Header"));
+const Resume = lazy(() => import("./components/Resume/Resume"));
+const Skills = lazy(() => import("./components/Skills/Skills"));
+const Project = lazy(() => import("./components/Project/Project"));
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className="App">
+      <h2 className="counter">
+        <Language />
+        <Switch />
+      </h2>
+
       <Routes>
-        <Route path='/My_Portfolio' element={ <Header />} />
-        <Route path='/resume' element={ <Resume />} />
-        <Route path='/skills' element={ <Skills />} />
+        <Route
+          path="/"
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Header />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/resume"
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Resume />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/skills"
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Skills />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/project"
+          element={
+            <Suspense fallback={<Preloader />}>
+              <Project />
+            </Suspense>
+          }
+        />
       </Routes>
-      <PrimaryNav />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
