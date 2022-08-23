@@ -83,7 +83,6 @@ input[type="checkbox"].checkbox + label {
 
 .dark input[type="checkbox"].checkbox + label {
   background: #fff;
-
 }
 
 .toggle-container {
@@ -105,9 +104,13 @@ input[type="checkbox"].checkbox + label {
   margin-top: 5px;
 }
 
-@media (min-width: 0) and (max-width: 800.9px){
+@media (min-width: 0) and (max-width: 800.9px) {
   .dark-mode,
-  .light-mode{
+  .light-mode {
     width: auto;
+  }
+
+  nav {
+    padding: 20px 0;
   }
 }

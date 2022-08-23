@@ -55,7 +55,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic">SASS</div>
+                <div className="topic">Bootstrap/SASS</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -69,7 +69,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic">Bootstrap</div>
+                <div className="topic javascript">Javascript</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -83,7 +83,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic javascript">Javascript</div>
+                <div className="topic javascript">Jquery</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
@@ -111,12 +111,26 @@ const Skills = () => {
                 </div>
               </div>
               <div className="box">
-                <div className="topic javascript">Typescript</div>
+                <div className="topic javascript">Redux/React-redux</div>
                 <div className="green">
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>60</span>%
+                        <span>70</span>%
+                      </div>
+                      <div className="water"></div>
+                      <div className="glare"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="box">
+                <div className="topic javascript">React-router-dom</div>
+                <div className="green">
+                  <div className="progress">
+                    <div className="inner">
+                      <div className="percent">
+                        <span>70</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -130,7 +144,7 @@ const Skills = () => {
                   <div className="progress">
                     <div className="inner">
                       <div className="percent">
-                        <span>80</span>%
+                        <span>70</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>
@@ -138,6 +152,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
+              
               <div className="box">
                 <div className="topic javascript">Ant/Material UI</div>
                 <div className="green">
@@ -145,6 +160,21 @@ const Skills = () => {
                     <div className="inner">
                       <div className="percent">
                         <span>85</span>%
+                      </div>
+                      <div className="water"></div>
+                      <div className="glare"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="box">
+                <div className="topic javascript">Typescript</div>
+                <div className="green">
+                  <div className="progress">
+                    <div className="inner">
+                      <div className="percent">
+                        <span>70</span>%
                       </div>
                       <div className="water"></div>
                       <div className="glare"></div>

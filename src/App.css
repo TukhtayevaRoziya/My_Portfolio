@@ -1,41 +1,46 @@
 body {
-  background-color : rgb(43, 78, 104) !important;
-  color            : rgb(220, 220, 220) !important;
-  font-family      : 'Fira Code', monospace;
-  margin           : 0;
-  background       : url(./assets/bg.png) left/cover;
+  background-color: rgb(43, 78, 104) !important;
+  color: rgb(220, 220, 220) !important;
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  background: url(./assets/bg.png) left/cover;
   background-repeat: repeat;
 }
 
-.dark{
-  background-color : #000 !important;
+.dark {
+  background-color: #000 !important;
 }
 
-.dark .Footer_Footer__tKyXQ a, .Footer_Footer__tKyXQ a span{
+.dark .Footer_Footer__tKyXQ a,
+.dark .Footer_Footer__tKyXQ a span {
   color: #fff;
 }
 
-.dark .MuiBottomNavigation-root{
+.Footer_Footer__tKyXQ a,
+.Footer_Footer__tKyXQ a span {
+  color: #2b4e68;
+}
+
+.dark .MuiBottomNavigation-root {
   background-color: #303030 !important;
 }
 
-
-.dark .Footer_Footer__ndc6F a span{
+.dark .Footer_Footer__ndc6F a span {
   color: #fff !important;
 }
 
 .App {
-  height  : 100vh;
+  height: 100vh;
   /* overflow: hidden; */
 }
 
-.ant-image-preview-img{
+.ant-image-preview-img {
   max-width: 60% !important;
   min-width: 60% !important;
   height: auto;
 }
 
-.counter{
+.counter {
   width: 100%;
   text-align: center;
   color: #fff;
@@ -44,20 +49,20 @@ body {
   justify-content: space-between;
 }
 
-.counter strong{
+.counter strong {
   font-weight: bolder;
 }
 
-.dark .Resume_github_icon__tetS9 svg:hover{
+.dark .Resume_github_icon__tetS9 svg:hover {
   color: rgb(151, 149, 149) !important;
 }
 
-.dark .Preloader_coin__8oAcN{
+.dark .Preloader_coin__8oAcN {
   border-color: #5649a6;
 }
 
-@media (min-width: 0) and (max-width: 800.9px){
-  .counter{
+@media (min-width: 0) and (max-width: 800.9px) {
+  .counter {
     width: 85%;
     margin: 0 auto;
   }
