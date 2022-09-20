@@ -77,7 +77,7 @@ input[type="checkbox"].checkbox + label {
   cursor: pointer;
   position: absolute;
   left: 2px;
-  background: #333333;
+  background: var(--main-color-dark-gray);
   opacity: 0.9;
 }
 

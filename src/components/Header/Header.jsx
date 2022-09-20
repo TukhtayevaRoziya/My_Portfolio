@@ -6,6 +6,12 @@ import { useTranslation } from "react-i18next";
 const Header = () => {
   const { t } = useTranslation();
 
+  const txt = 'React Developer'
+  const length = txt.width
+  console.log(length);
+
+  // const line = document.getElementById('line_1').toString().length
+  // console.log(line);
   return (
     <>
       <div className={style.typewriter}>

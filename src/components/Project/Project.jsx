@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "antd";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import oksyG from "../../assets/projects/oksyG.png";
 import hotel from "../../assets/projects/hotel.png";
@@ -14,10 +15,10 @@ import ekabu from "../../assets/projects/ekabu.png";
 import buildAdmin from "../../assets/projects/buildAdmin.png";
 import doctor from "../../assets/projects/doctor.png";
 import las from "../../assets/projects/las.png";
+import nura from "../../assets/projects/nuraElite.png";
 
 import "antd/dist/antd.css";
 import style from "./Project.module.css";
-import { useTranslation } from "react-i18next";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -27,6 +28,21 @@ const Project = () => {
       <h1 className={style.project_title}>{t("navbar1")}</h1>
       <div className={style.project__block}>
         
+        <div className={style.project__block__box}>
+          <Image src={nura} />
+          <h3>Nura Elite {t("project")}</h3>
+          <p>{t("technology")} Css3, React, Yandex Map</p>
+          <h5>{t("time")} 1  {t('day')}</h5>
+          <div className={style.project__block__box__as_btn}>
+            <a
+              href="https://nuraelite.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("visit")}
+            </a>
+          </div>
+        </div>
         <div className={style.project__block__box}>
           <Image src={oksyG} />
           <h3>Oksy-G Milk {t("project")}</h3>
