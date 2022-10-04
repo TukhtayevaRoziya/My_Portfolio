@@ -8,18 +8,19 @@
     margin: auto 0;
 }
 
-.select select{
+.dark .select select{
     color: #fff;
     border: none;
-    background-color: #0a192f;
+    background-color: transparent;
+    font-size: 18px;
 }
 
-.dark .select select{
+.select select{
     background-color: #000000;
 }
 
 .dark .select select option{
-    background-color: black;
+    background-color: rgb(8 63 88);
     border: none;
 }
 

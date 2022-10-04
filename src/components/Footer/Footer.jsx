@@ -28,21 +28,18 @@ export default class Footer extends Component {
           className={"nav primary " + style.Footer}
         >
           <BottomNavigationAction
-            label="Home"
             icon={<HomeRoundedIcon />}
             value="home"
             component={NavLink}
             to={pathMap[0]}
           />
           <BottomNavigationAction
-            label="Resume"
             icon={<AssignmentIndIcon />}
             value="resume"
             component={NavLink}
             to={pathMap[1]}
           />
           <BottomNavigationAction
-            label="Projects"
             icon={<InsertDriveFileRoundedIcon />}
             value="project"
             component={NavLink}
@@ -50,7 +47,6 @@ export default class Footer extends Component {
           />
 
           <BottomNavigationAction
-            label="Services"
             icon={<LocalOfferRoundedIcon />}
             value="service"
             component={NavLink}

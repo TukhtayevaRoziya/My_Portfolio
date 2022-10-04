@@ -16,6 +16,8 @@ const Project = lazy(() => import("./components/Project/Project"));
 const App = () => {
   return (
     <div className="App">
+      <div class="bg-circle1"></div>
+      <div class="bg-circle2"></div>
       <h2 className="counter">
         <Language />
         <Switch />
