@@ -9,7 +9,7 @@ import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 import style from "./Footer.module.css";
 
-export default class Footer extends Component {
+export default class Footer extends Component { 
   state = {
     value: 0,
     pathMap: ["/", "/resume", "/project", "/skills"],
