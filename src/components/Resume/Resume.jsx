@@ -56,7 +56,7 @@ const Resume = () => {
           <div className={style.socials}>
             <ul>
               <li>
-                <a className={style.facebook_icon} href>
+                <a className={style.facebook_icon} href='/'>
                   <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
                 </a>
               </li>

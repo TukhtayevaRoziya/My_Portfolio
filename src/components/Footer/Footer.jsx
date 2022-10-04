@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import InsertDriveFileRoundedIcon from "@material-ui/icons/InsertDriveFileRounded";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
@@ -7,7 +7,6 @@ import LocalOfferRoundedIcon from "@material-ui/icons/LocalOfferRounded";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
-
 import style from "./Footer.module.css";
 
 export default class Footer extends Component {
@@ -15,16 +14,7 @@ export default class Footer extends Component {
     value: 0,
     pathMap: ["/", "/resume", "/project", "/skills"],
   };
-  componentWillReceiveProps(newProps) {
-    const { pathname } = newProps.location; 
-    const { pathMap } = this.state;
-    const value = pathMap.indexOf(pathname);
-    if (value > -1) {
-      this.setState({
-        value,
-      });
-    }
-  }
+
   handleChange = (event, value) => {
     this.setState({ value });
   };
@@ -48,14 +38,14 @@ export default class Footer extends Component {
             label="Resume"
             icon={<AssignmentIndIcon />}
             value="resume"
-            component={Link}
+            component={NavLink}
             to={pathMap[1]}
           />
           <BottomNavigationAction
             label="Projects"
             icon={<InsertDriveFileRoundedIcon />}
             value="project"
-            component={Link}
+            component={NavLink}
             to={pathMap[2]}
           />
 
@@ -63,7 +53,7 @@ export default class Footer extends Component {
             label="Services"
             icon={<LocalOfferRoundedIcon />}
             value="service"
-            component={Link}
+            component={NavLink}
             to={pathMap[3]}
           />
         </BottomNavigation>
