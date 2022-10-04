@@ -81,7 +81,7 @@ input[type="checkbox"].checkbox + label {
   opacity: 0.9;
 }
 
-.dark input[type="checkbox"].checkbox + label {
+body input[type="checkbox"].checkbox + label {
   background: #fff;
 }
 

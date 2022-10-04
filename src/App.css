@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(43, 78, 104) !important;
+  background-color: #0a192f !important;
   color: rgb(220, 220, 220) !important;
   font-family: "Fira Code", monospace;
   margin: 0;
@@ -18,7 +18,7 @@ body {
 
 .Footer_Footer__tKyXQ a,
 .Footer_Footer__tKyXQ a span {
-  color: #2b4e68;
+  color: #0a192f;
 }
 
 .dark .MuiBottomNavigation-root {
