@@ -14,12 +14,12 @@
   margin: 2rem 0 0.5rem 0;
   font-size: 24px;
   text-align: center;
-  color: #02021a !important;
+  color: #02021a ;
 }
 
 .typewriter p {
-  color: #02021a;
   font-weight: bolder;
+  color: #02021a ;
 }
 
 .typewriter #line_1,

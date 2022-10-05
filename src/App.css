@@ -158,6 +158,13 @@ a.MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.active
 .MuiBottomNavigationAction-root.Mui-selected {
   padding-top: 0 !important;
 }
+
+.dark .Header_typewriter__gkMMW h1,
+.dark .Header_typewriter__gkMMW p,
+.dark{
+  color: #fff !important;
+
+}
 @media (min-width: 0) and (max-width: 800.9px) {
   .counter {
     width: 85%;
