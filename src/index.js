@@ -9,13 +9,15 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
+  <React.StrictMode>
   <Provider store={store}>
     <HashRouter>
       <React.StrictMode>
         <App />
       </React.StrictMode>
     </HashRouter>
-  </Provider>,
+  </Provider>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
