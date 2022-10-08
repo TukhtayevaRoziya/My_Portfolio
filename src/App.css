@@ -163,7 +163,10 @@ a.MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.active
 .dark .Header_typewriter__gkMMW p,
 .dark{
   color: #fff !important;
+}
 
+.select select{
+  background-color: ;
 }
 @media (min-width: 0) and (max-width: 800.9px) {
   .counter {
