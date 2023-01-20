@@ -12,7 +12,6 @@ function Language() {
 
   const handleChange = (event) => {
     setLang(event.target.value)
-    console.log(event.target)
     localStorage.setItem('lang', event.target.value)
     i18n.changeLanguage(event.target.value)
   }

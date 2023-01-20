@@ -1,30 +1,7 @@
-body {
-  background: #fff !important;
-  color: #02021a !important;
-  font-family: 'Fira Code', monospace;
-  margin: 0;
-  background: url(./assets/bg.png) left/cover;
-  background-repeat: repeat;
-}
-
-body:before {
-  background: #0ff;
-}
-
-body:after {
-  background: #b700ff;
-  left: 250px;
-  top: 200px;
-}
-
-body:after,
-body:before {
-  content: '';
-  -webkit-filter: blur(140px);
-  filter: blur(140px);
-  height: 200px;
-  position: fixed;
-  width: 200px;
+.dark .Header_typewriter__E91W6 h1,
+.dark p#Header_line_1__mIHAr,
+.dark p#Header_line_2__llArc {
+  color: #fff !important;
 }
 
 .bg-circle1,
@@ -32,6 +9,12 @@ body:before {
   height: 200px;
   position: fixed;
   width: 200px;
+  display: none;
+}
+
+.dark .bg-circle1,
+.dark .bg-circle2{
+  display: inherit;
 }
 
 .bg-circle1 {
@@ -65,8 +48,12 @@ body:before {
   color: #d1d9fc;
 }
 
-.MuiBottomNavigation-root {
+.dark .MuiBottomNavigation-root {
   background-color: #303030 !important;
+}
+
+.MuiBottomNavigation-root{
+  background-color: #bebebe !important;
 }
 
 .MuiBottomNavigation-root {
@@ -161,12 +148,15 @@ a.MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.active
 
 .dark .Header_typewriter__gkMMW h1,
 .dark .Header_typewriter__gkMMW p,
-.dark{
+.dark {
   color: #fff !important;
 }
 
-.select select{
-  background-color: ;
+.select select {
+  /* background-color: ; */
+}
+.dark .Resume_socials__vbK1Y ul li a{
+  color: #fff;
 }
 @media (min-width: 0) and (max-width: 800.9px) {
   .counter {

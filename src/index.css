@@ -9,6 +9,33 @@
   border-radius: 5px;
 }
 
-body{
+body {
   overflow-x: hidden;
+  background: #fff !important;
+  color: #02021a !important;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  background: url(./assets/bg.png) left/cover;
+  background-repeat: repeat;
 }
+
+.dark body:before {
+  background: #0ff;
+}
+
+.dark body:after {
+  background: #b700ff;
+  left: 250px;
+  top: 200px;
+}
+
+.dark body:after,
+.dark body:before {
+  content: '';
+  -webkit-filter: blur(140px);
+  filter: blur(140px);
+  height: 200px;
+  position: fixed;
+  width: 200px;
+}
+
